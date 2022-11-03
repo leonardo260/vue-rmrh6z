@@ -3,6 +3,11 @@
     <h1>{{ msg }}</h1>
     <canvas id="myChart" width="400" height="400"></canvas>
   </div>
+  <div><label>agregar</label></div>
+  <div><input type="text" id="1"></div>
+  
+
+  <button onclick=>agregar</button>
 </template>
 
 <script>
@@ -13,6 +18,7 @@ export default {
   props: {
     msg: String
   },
+ 
   
   mounted(){
     console.log("Component mounted.")
@@ -24,7 +30,7 @@ const myChart = new Chart(ctx, {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
             label: '# of Votes',
-            data: [10, 19, 3, 5, 2, 3],
+            data: [15, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -52,8 +58,10 @@ const myChart = new Chart(ctx, {
         }
     }
 });
-  
+ 
+ 
 }
+
 }
 
 

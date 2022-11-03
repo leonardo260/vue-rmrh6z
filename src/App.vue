@@ -1,7 +1,13 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <HelloWorld msg="grafica de barras"/>
+    
+
+  </div>
+  <div id="app1">
+    
+    
     
 
   </div>
